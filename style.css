@@ -1,48 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
 
     background-color: ghostwhite;
     font-family: Arial, Helvetica, sans-serif;
 }
-#recipes {
 
-   background-color: green;
-   width: 300px;
-   border: 15px solid green;
-   padding: 20px;
-   margin: 20px auto;
-   box-shadow: 10px 10px black;
-  }
 .title {
 
     background-color: lightblue;
     color: white;
     padding: 20px 100px;
-    position: relative;
     text-align: center;
 }
-.gnocchi,
-.carrot,
+.imgs {
+
+    text-align: center;
+    display: flex;
+}
+
+.left {
+flex: 33.3%;
+}
+
+.middle {
+    flex: 33.3%;
+}
+
+.right {
+    flex: 33.3%;
+
+}
+
+a:hover {
+    background-color: red;
+    
+}
+/*
+.gnocchi {
+float: left;
+padding:0 auto;
+}
+.cake-carrot {
+float: left;
+padding-left: 30px;
+}
 .brownies {
+    float: left;
+    padding-left: 30px;
+}*/
 
-    color: aliceblue;
-}
+figcaption {
 
- ul {
-    list-style-type: none;
-    line-height: 40px !important;
-    text-align: center;
- }
-
-li {
-    
-    font-weight: bold;
-    font-size: 20px;
     text-transform: uppercase;
-    
+    font-weight: bold;
+    padding: 10px;
 }
 
 footer {
 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
 }
-
